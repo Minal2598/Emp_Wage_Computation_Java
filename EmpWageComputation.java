@@ -20,12 +20,14 @@ public class EmpWageComputation{
 		else if(empCheck == isPartTime)
 		{
 			System.out.println("Employee is Present");
+
 			int DailyEmpWage=WagePerHr*PartTimeHr;
 			System.out.println("DailyEmpWage of PartTime Employee::"+DailyEmpWage);
 		}else
 		{
 			System.out.println("Employee is Abscent");
 			//empHr=0;
+
 			
 		}
 		
