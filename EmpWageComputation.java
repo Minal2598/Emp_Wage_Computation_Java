@@ -17,10 +17,11 @@ public class EmpWageComputation{
 		}
 		else if(empCheck == isPartTime)
 		{
-			System.out.println("Employee is Abscent");
+			System.out.println("Employee is Present");
 			empHr=4;
 		}else
 		{
+			System.out.println("Employee is Abscent");
 			empHr=0;
 			
 		}
